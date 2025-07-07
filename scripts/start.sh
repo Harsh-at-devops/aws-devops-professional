@@ -1,2 +1,2 @@
 #! /bin/bash
-/tmp/hello-world-app > /tmp/output.txt
+/tmp/hello-world.js > /tmp/output.txt

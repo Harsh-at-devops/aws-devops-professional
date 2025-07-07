@@ -12,6 +12,6 @@ phases:
 
 artifacts:
   files:
-    - hello-world-app
+    - hello-world.js
   base-directory: $CODEBUILD_SRC_DIR
   discard-paths: no
