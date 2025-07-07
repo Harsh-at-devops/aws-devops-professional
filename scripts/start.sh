@@ -1,2 +1,2 @@
 #! /bin/bash
-node /tmp/hello-world.js > /tmp/output.txt
+node /opt/codedeploy-agent/deployment-root/*/deployment-archive/hello-world.js > /tmp/output.txt 2>&1 &
