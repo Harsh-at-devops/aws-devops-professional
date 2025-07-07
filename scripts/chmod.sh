@@ -1,2 +1,2 @@
 #! /bin/bash
-chmod +x /tmp/hello-world.js
+chmod +x /opt/codedeploy-agent/deployment-root/*/deployment-archive/hello-world.js
