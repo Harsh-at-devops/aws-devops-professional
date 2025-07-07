@@ -8,7 +8,7 @@ phases:
       - echo "Installing Nodejs"
   build:
     commands:
-      - node hello-world.js
+      - cp hello-world.js /tmp/hello-world.js
 
 artifacts:
   files:
