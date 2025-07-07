@@ -1,2 +1,2 @@
 #! /bin/bash
-/tmp/hello-world.js > /tmp/output.txt
+node /tmp/hello-world.js > /tmp/output.txt
