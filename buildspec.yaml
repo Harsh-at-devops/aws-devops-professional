@@ -1,9 +1,14 @@
 version: 0.2
 
 phases:
+  install:
+    runtime-versions:
+      nodejs: latest
+    commands:
+      - echo "Installing Nodejs"
   build:
     commands:
-      - gcc hello-world.c -o hello-world-app
+      - node hello-world.js
 
 artifacts:
   files:
