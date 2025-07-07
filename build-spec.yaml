@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - gcc hello-world.c -o hello-world-app
+
+artifacts:
+  files:
+    - hello-world-app
+  base-directory: $CODEBUILD_SRC_DIR
+  discard-paths: no
