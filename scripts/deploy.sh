@@ -4,6 +4,8 @@
 curl -fsSL https://rpm.nodesource.com/setup_18.x | bash -
 yum install -y nodejs
 
-echo "Copying all deployment files to /tmp/myapp"
+echo "Copying deployment bundle to /tmp/myapp using rsync"
+rm -rf /tmp/myapp
 mkdir -p /tmp/myapp
-cp -r . /tmp/myapp/
+
+rsync -av --exclude='/tmp/myapp' ./ /tmp/myapp/
