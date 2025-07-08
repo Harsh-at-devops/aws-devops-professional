@@ -1,2 +1,2 @@
 #! /bin/bash
-node /tmp/myapp/hello-world.js > /tmp/output.txt 2>&1 &
+node /tmp/harsh/hello-world.js > /tmp/output.txt 2>&1 &
