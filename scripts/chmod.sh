@@ -1,2 +1,2 @@
 #! /bin/bash
-chmod +x hello-world.js
+chmod +x /tmp/myapp/hello-world.js
